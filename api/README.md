@@ -72,3 +72,6 @@ docker run --name api -p 3000:3000 --link mongodb:mongodb ipssi/api:1.0
     If you want typed Behavior use an interface.
 
     Dave Cheney.
+
+## Command for lauching test
+go test -v ./..
